@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+.page.home {
+  background: url(./images/home.svg);
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+.page.universe {
+  background: url(./images/universe.svg);
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+.page.exploration {
+  background: url(./images/exploration.svg);
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+
+nav {
+  width: 128rem;
+  height: 12.2rem;
+  margin-left : 7.2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 2.2rem; 
+  color: #C4C4CC; 
+}
+
+nav svg{
+  height: 4.2rem;
+  width: 5rem;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+h1,
+p,
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+h1{
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+.wrapper {
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
+  padding: 1.2rem 3.2rem;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.container-second {
+  margin: 6.3rem 0 0 10.2rem;
+}
+
+.container-second h1{
+  margin-bottom: 1.6rem;
+  width: 24rem;
+  height: 6rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+}
+
+.container-second p{
+  width: 64.8rem;
+  height: 6rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+a.linkHome.bold,
+a.linkUniverse.bold,
+a.linkExploration.bold {
+  color: #fff;
+}
